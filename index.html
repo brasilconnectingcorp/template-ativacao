@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Ativação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@500;700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@500;700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@500;700&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            margin: auto;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+            width: 600px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .header-image-01 img {
+            width: 30%;
+            padding: 30px;
+        }
+
+        .header-image-02 img {
+            width: 70%;
+        }
+
+
+        .header-text {
+            padding-top: 1px;
+            display: flex;
+            text-wrap: balance;
+            color: white;
+            margin: auto;
+            text-align: left;
+            background: #385AE8;
+            justify-content: space-between;
+        }
+
+        .header-text text {
+            margin: 20px;
+            font-size: 25px;
+            font-weight: 700;
+            align-self: center;
+        }
+
+        .content {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .activation-text {
+            font-size: 21px;
+            text-wrap: balance;
+            color: #3B3F44;  
+            
+        }
+
+        hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-image-01"><img src="https://app.brasilconnecting.com.br/images/tallkme-preta.png" alt="">
+        </div>
+    </div>
+
+    <div class="header-text">
+        <text>A sua conta ficou pronta! Seja bem-vindo ao Tallk.me</text>
+
+        <div class="header-image-02">
+            <img src="https://img.mailinblue.com/5256702/images/content_library/original/64c02f30aacd9e35bd69b37e.png"
+                alt="">
+        </div>
+    </div>
+
+    <div class="content">
+        Olá, <b>{{NOME}}</b>!
+
+        <br> <br>
+
+        <div class="activation-text">Temos o prazer em informar que sua conta TALLK.ME encontra-se ativa e pronta para
+            uso!</div>
+
+            <br> <br>
+        
+        A partir de agora estamos 100% focados em seu sucesso! 🎯
+        <br> <br>
+        <hr>
+        <b>1 - ACESSO PORTAL DE GESTÃO DE SUA CONTA</b>
+        <br> <br>
+        <b>Acesso:</b> https://app.tallk.me
+        <br>
+        <b>Usuário:</b> {{EMAIL}}
+        <br>
+        <b>Senha:</b> {{GERAL1}}
+        <hr>
+        <b>2 - ACESSO AO USUÁRIO</b>
+        <br>
+        Login de Atendentes: https://agente.tallk.me
+        <br><br>
+        <b>OBS: Acesse o portal de gestão para criar os acessos dos usuários</b>!
+        <hr>
+
+        <b>3 - NÚMERO RECEPTIVO (se houver):</b>
+        <br>
+        {{GERAL4}}
+        <hr>
+
+        <b>4 - LINK DE ATENDIMENTO</b>
+        <br>
+        {{GERAL2}}
+        <hr>
+
+        <div class="qr-code">
+            <img style="display: block; width: 100%;" src="{{GERAL3}}" width="27" alt="QR Code do link de atendimento">
+        </div>
+
+
+
+
+
+    </div>
+
+    <div class="footer"></div>
+
+</body>
+
+</html>
