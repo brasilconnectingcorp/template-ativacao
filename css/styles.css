@@ -1,0 +1,225 @@
+      body {
+            margin: auto;
+            display: flex;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+            max-width: 600px;
+            max-height: fit-content;
+        }
+
+        p {
+            margin: 0;
+            font-size: 18px;
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+            color: #000000;
+        }
+
+        a {
+            font-size: 22px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .header-image-01 img {
+            display: flex;
+            margin: auto;
+            padding: 30px;
+            width: 30%;
+        }
+
+        .header-image-02 img {
+            display: flex;
+            align-self: center;
+            width: 100%;
+            max-width: 300px;
+            display: flex;
+        }
+
+
+        .header-text {
+            padding-top: 1px;
+            display: flex;
+            text-wrap: balance;
+            margin: auto;
+            text-align: left;
+            background: #385AE8;
+            justify-content: space-between;
+        }
+
+        .content {
+            margin: auto;
+            max-width: 700px;
+        }
+
+        .header-text p {
+            margin: 20px;
+            color: white;
+            font-size: 30px;
+            font-weight: 700;
+            align-self: center;
+        }
+
+        .content-2 {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .activation-text {
+            font-size: 21px;
+            text-wrap: balance;
+            color: #3B3F44;
+
+        }
+
+        hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .manual-link {
+            margin-bottom: 50px;
+        }
+
+        button {
+            align-items: center;
+            background-color: #385AE8;
+            border: 0;
+            border-radius: 100px;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-flex;
+            font-size: 16px;
+            font-weight: 600;
+            justify-content: center;
+            line-height: 20px;
+            max-width: 480px;
+            min-height: 40px;
+            min-width: 0px;
+            overflow: hidden;
+            padding: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+            touch-action: manipulation;
+            transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+            user-select: none;
+            -webkit-user-select: none;
+            vertical-align: middle;
+        }
+
+        button:hover,
+        button:focus {
+            background-color: #264de7;
+            color: #ffffff;
+        }
+
+        button:active {
+            background: #09223b;
+            color: rgb(255, 255, 255, .7);
+        }
+
+        button:disabled {
+            cursor: not-allowed;
+            background: rgba(0, 0, 0, .08);
+            color: rgba(0, 0, 0, .3);
+        }
+
+        .footer {
+            display: flex;
+            margin-top: 60px;
+            justify-content: space-between;
+            background: #385AE8;
+            padding-top: 20px;
+            align-items: center;
+        }
+
+        .footer p {
+            color: white;
+            font-size: 24px;
+            font-weight: 700;
+            align-self: center;
+            height: fit-content;
+            margin-left: 10px;
+        }
+
+        .footer a {
+            text-decoration: none;
+        }
+
+        .svg-footer {
+            margin-left: 50px;
+        }
+
+        .svg-footer-2 {
+            margin-bottom: -5px;
+        }
+
+
+        .svg-footer-3 {
+
+            margin-right: 30px;
+
+        }
+
+        b {
+            font-size: 22px;
+        }
+
+        .qr-code img {
+            display: flex;
+            margin: auto;
+            width: 80%;
+        }
+
+        a, a:visited {
+            color: #0000EE;
+        }
+
+        @media screen and (max-width: 600px) {
+            .header-text p {
+                font-size: 20px;
+            }
+
+            .header-image-01 img {
+                width: 28%;
+            }
+
+            .header-image-02 img {
+                display: flex;
+                align-self: center;
+                width: 100%;
+                max-width: 100px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            a, b {
+            font-size: 20px;
+            }
+
+            .qr-code img{
+                width: 60%;
+            }
+
+            .footer p {
+
+                font-size: 20px;
+            }
+
+            button {
+                font-size: 14px;
+            }
+
+
+            
+
+
+
+        }
